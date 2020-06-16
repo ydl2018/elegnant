@@ -1,0 +1,32 @@
+{
+  "name": "elegant",
+  "version": "0.0.1",
+  "description": "an effective javascript framework",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test",
+    "serve": "webpack webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ydl2018/elegnant.git"
+  },
+  "keywords": [
+    "javascript",
+    "framework"
+  ],
+  "author": "darlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ydl2018/elegnant/issues"
+  },
+  "homepage": "https://github.com/ydl2018/elegnant#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
